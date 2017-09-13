@@ -1,0 +1,43 @@
+
+
+body {
+  padding-top: 150px;
+  background-image: url(../images/psychic.jpg);
+  background-repeat: no-repeat;
+  background-position: right center;
+  background-size: 100%;
+}
+
+.flex-container {
+  /*flex-wrap: nowrap;*/
+  flex-direction: ltr;
+  /*display: -webkit-flex;*/
+  display: flex;
+  width: 400px;
+  height: 400px;
+  /*background-repeat: no-repeat;*/
+  text-align: center;
+  margin: 40px;
+}
+
+#title {
+  text-align: center;
+  font-size: 350%;
+  font-family: fantasy;
+  color: white;
+}
+
+.flex-item {
+  justify-content: center;
+  width: 150px;
+  height: 100px;
+  margin: 50%;
+  font-family: fantasy;
+  color: white;
+  /*text-align: center;*/
+}
+.w3-panel{
+  text-align: center;
+  font-family: fantasy;
+  color: white;
+}
