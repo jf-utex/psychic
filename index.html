@@ -16,31 +16,30 @@
 	<div id="title" <h1>ARE YOU A PSYCHIC?</h1>
 		<h3>Of the whole alphabet, what letter am I thinking?</h3>
 	</div>
-	<div class="flex-container inline-flex">
-		<div class="flex-item">
-			<h2><p>Your current choice: <span class="userChoice"></span></p></h2>
-			<h4><p id="letters-guessed"></p></h4>
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-6">
+				<h2><p>Your current choice: <span class="userChoice"></span></p></h2>
+				<h4><p id="letters-guessed"></p></h4>
+			</div>
+
+			<div class="col-sm-6">
+				<h2>Scoreboard</h2>
+				<h5 id="compChoice">The computer choice for that round was:</h5><br>
+			</div>
 		</div>
-
-		<div class="flex-item">
-			<h1>Scoreboard</h1>
-			<h5 id="compChoice">The computer choice for that round was:</h5><br>
+<br>
+<br>
+		<div class="w3-panel">
+			<p id="wins"> Wins: </p>
+		</div>
+		<div class="w3-panel">
+			<p id="losses"> Losses: </p>
+		</div>
+		<div class="w3-panel">
+			<p id="guesses-left">Number of Guesses left: 10</p>
 		</div>
 	</div>
-	<div class="w3-panel">
-		<p id="wins"> Wins: </p>
-	</div>
-	<div class="w3-panel">
-		<p id="losses"> Losses: </p>
-	</div>
-	<div class="w3-panel">
-		<p id="guesses-left">Number of Guesses left: 10</p>
-	</div>
-
-	<!-- <div class='flex-item'>
-
-			</div> -->
-
 
 
 </body>
